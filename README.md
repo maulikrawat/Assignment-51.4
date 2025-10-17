@@ -2,7 +2,7 @@ Responsive Hero Section using Atomic CSS
 
 This project is a static web page that showcases a modern, responsive hero section layout. It is built entirely with HTML and CSS, following an Atomic CSS (or utility-first) methodology. Each class has a single, specific purpose, demonstrating how to build a clean and professional-looking design by composing simple, reusable utility classes.
 
-![image](<img width="1890" height="916" alt="Image" src="https://github.com/user-attachments/assets/afd93607-df7a-4ab2-a445-2b253709c8ab" />)
+![image]("img width="1890" height="916" alt="Image" src="https://github.com/user-attachments/assets/afd93607-df7a-4ab2-a445-2b253709c8ab" )
 
 Key Features
 
