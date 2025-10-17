@@ -1,0 +1,123 @@
+.main-container{
+    display: flex;
+    min-height: 100vh;
+}
+.content-section{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 65px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.text-4xl{
+    font-size: 50px;
+}
+.font-bold{
+    font-weight:900;
+}
+.text-black{
+    color: black;
+}
+.mb-4{
+    margin-bottom: 16px;
+}
+.text-blue{
+    color: blue;
+}
+.d-block{
+    display: block;
+}
+.text-lg{
+    font-size: 20px;
+}
+.text-gray-600{
+    color: gray;
+}
+.mb-8{
+    margin-bottom: 32px;
+}
+.flex{
+    display: flex;
+}
+.btn-primary{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+
+}
+.btn-primary:hover{
+    background-color: darkblue;
+}
+.btn-secondary{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: 500;
+    color: blue;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    text-decoration: none;
+
+}
+.btn-secondary:hover{
+    background-color: gainsboro;
+    color: darkorchid;
+}
+.btn-space{
+    gap: 15px;
+    display: flex;
+}
+.image-section{
+    flex: 1;
+    background-color: lightslategray;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-full-width{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media(max-width: 1024px){
+    .main-container{
+    flex-direction: column;
+    }
+.content-section{
+    max-width: 100%;
+    padding: 32px;
+}
+.image-section{
+    min-height: 400px;
+}
+.text-4xl{
+    font-size: 32px;
+}
+.text-lg{
+    font-size: 16px;
+}
+}
+@media(max-width: 768px){
+    .content-section{
+        padding: 24px;
+        text-align: center;
+    }
+    .flex{
+        justify-content: center;
+    }
+}
+
